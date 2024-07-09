@@ -1,5 +1,5 @@
-const form = document.querySelector(".shopping");
-const newItem = document.getElementById("item");
+const form = document.querySelector(".shoppingForm");
+const newItem = document.getElementById("itemInput");
 const submitButton = document.querySelector(".add-item");
 const itemContainer = document.querySelector(".items");
 const list = document.querySelector(".list");
