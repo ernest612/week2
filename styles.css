@@ -1,49 +1,43 @@
-.container {
-    text-align: center;
-    background-color: grey;
-    color: white;
-    height: 100vh;
-    width: 90vh;
-
-
-}
-
-.centered {
-    background-color: grey;
-    width: 80%;
-    margin: 10vh;
-    padding: 3% 4%;
-    border-radius: 10px;
-}
-
-.centered h1 {
-    text-align: center;
-    margin-bottom: 3%;
-}
-
-.centered input {
-    width: 30%;
-    height: 20px;
-    margin-bottom: 2%;
-
-}
-
-.centered p {
-    margin-bottom: 1%;
-}
-
-html {
-    font-size: auto;
-
-}
-
 body {
-    font-size: 16px;
-    line-height: 1.5;
+    background-image: url("https://c0.wallpaperflare.com/preview/740/621/170/wall-texture-pattern-backgorund.jpg");
+    /* Replace with your image path */
+    background-size: cover;
+    /* Stretch image to cover the entire background */
+    background-repeat: no-repeat;
+    /* Prevent image from repeating */
+    font-family: sans-serif;
+    /* Set a default font family */
+
+}
+
+h1 {
+    color: beige;
+    text-align: center;
+    /* Center align the heading text */
+    margin-bottom: 20px;
+    /* Add some space below the heading */
+}
+
+button {
+    padding: 5px 10x;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#add-button {
+    background-color: rgb(189, 235, 189);
+    color: rgb(8, 8, 8);
+}
+
+#mark-purchased {
+    background-color: orange;
     color: black;
-    background-color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size-adjust: none;
+}
+
+#clear-list {
+    background-color: red;
+    color: white;
 }
